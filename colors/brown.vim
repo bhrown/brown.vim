@@ -38,7 +38,7 @@ hi link Conditional Keyword
 hi link Repeat Keyword
 
 hi link cType Keyword
-
+hi link rustCommentLineDoc Comment
 
 hi! link Terminal Normal
 hi! link Boolean Constant
