@@ -1,2 +1,2 @@
-# brown.vim
+# vim-brown
 Brown colorscheme for Vim
