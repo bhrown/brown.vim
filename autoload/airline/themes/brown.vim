@@ -2,10 +2,37 @@ scriptencoding utf-8
 
 let g:airline_theme = 'brown'
 
+let g:airline_left_sep = ''
+let g:airline_left_sep = ''
+let g:airline_right_sep = ''
+let g:airline_right_sep = ''
+let g:airline_symbols.colnr = ''
+let g:airline_symbols.colnr = ''
+let g:airline_symbols.crypt = ''
+let g:airline_symbols.linenr = ''
+let g:airline_symbols.linenr = ''
+let g:airline_symbols.linenr = ''
+let g:airline_symbols.linenr = ' '
+let g:airline_symbols.maxlinenr = ''
+let g:airline_symbols.maxlinenr = ' '
+let g:airline_symbols.branch = ''
+let g:airline_symbols.paste = ''
+let g:airline_symbols.paste = ''
+let g:airline_symbols.paste = ''
+let g:airline_symbols.spell = ''
+let g:airline_symbols.notexists = ''
+let g:airline_symbols.notexists = ''
+let g:airline_symbols.whitespace = ''
+
+let g:airline_section_warning = ''
+
 let g:airline#themes#brown#palette = {}
 let s:airline_a_normal   = [ '#ffffff' , '#332400' , 17  , 190 ]
 let s:airline_b_normal   = [ '#ffffff' , '#332400' , 255 , 238 ]
 let s:airline_c_normal   = [ '#ffffff' , '#332400' , 85  , 234 ]
+let s:airline_x_normal   = [ '#ffffff' , '#332400' , 85  , 234 ]
+let s:airline_y_normal   = [ '#ffffff' , '#332400' , 85  , 234 ]
+let s:airline_z_normal   = [ '#ffffff' , '#332400' , 85  , 234 ]
 let g:airline#themes#brown#palette.normal = airline#themes#generate_color_map(s:airline_a_normal, s:airline_b_normal, s:airline_c_normal)
 
 let g:airline#themes#brown#palette.normal_modified = {
