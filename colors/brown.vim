@@ -32,6 +32,7 @@ hi Underlined guifg=#ffff40 guibg=NONE gui=bold,underline cterm=underline
 hi Directory    guifg=#fff0cc
 hi NonText      guifg=#C38B16   
 hi SignColumn   guibg=#1D1B16 ctermfg=214 ctermbg=234
+hi MatchParen ctermbg=6 guibg=#7f7f8c guifg=#bdb76b
 
 hi link Conditional Keyword
 hi link Repeat Keyword
