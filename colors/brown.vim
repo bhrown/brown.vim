@@ -34,6 +34,7 @@ hi NonText          guifg=#C38B16
 hi SignColumn       guibg=#1D1B16 ctermfg=214 ctermbg=234
 hi MatchParen       ctermbg=6 guibg=#73570f guifg=#f9b301
 hi Folded           guifg=#f9b301 guibg=#261d00
+hi Todo             guifg=#261d00 guibg=#f9b301
 
 hi link Conditional Keyword
 hi link Repeat Keyword
