@@ -35,6 +35,13 @@ hi SignColumn       guibg=#1D1B16 ctermfg=214 ctermbg=234
 hi MatchParen       ctermbg=6 guibg=#73570f guifg=#f9b301
 hi Folded           guifg=#f9b301 guibg=#261d00
 hi Todo             guifg=#261d00 guibg=#f9b301
+hi Error            guifg=#f9b301 guibg=#261d00
+
+highlight link ALEVirtualTextError Error         
+highlight link ALEVirtualTextWarning Error
+highlight link ALEVirtualTextInfo Error
+highlight link ALEVirtualTextStyleError Error
+highlight link ALEVirtualTextStyleWarning Error
 
 hi link Conditional Keyword
 hi link Repeat Keyword
