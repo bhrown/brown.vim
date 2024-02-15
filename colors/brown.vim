@@ -36,6 +36,8 @@ hi MatchParen       ctermbg=6 guibg=#73570f guifg=#f9b301
 hi Folded           guifg=#f9b301 guibg=#261d00
 hi Todo             guifg=#261d00 guibg=#f9b301
 hi Error            guifg=#f9b301 guibg=#261d00
+hi ALEErrorSign     guifg=#f9b301 guibg=#261d00
+hi ALEWarningSign   guifg=#f9b301 guibg=NONE
 
 highlight link ALEVirtualTextError Error         
 highlight link ALEVirtualTextWarning Error
@@ -49,6 +51,7 @@ hi link Repeat Keyword
 hi link cType Keyword
 hi link rustCommentLineDoc Comment
 
+hi! link VertSplit Normal
 hi! link Terminal Normal
 hi! link Boolean Constant
 hi! link Character Constant
