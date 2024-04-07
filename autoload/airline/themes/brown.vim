@@ -36,16 +36,16 @@ let s:airline_z_normal   = [ '#ffffff' , '#332400' , 85  , 234 ]
 let g:airline#themes#brown#palette.normal = airline#themes#generate_color_map(s:airline_a_normal, s:airline_b_normal, s:airline_c_normal)
 
 let g:airline#themes#brown#palette.normal_modified = {
-      \ 'airline_c': [ '#ffffff' , '#febb10' , 255     , 53      , ''     ] ,
+      \ 'airline_c': [ '#332400' , '#febb10' , 255     , 53      , ''     ] ,
       \ }
 
 
-let s:airline_a_insert = [ '#422f00' , '#febb10' , 17  , 45  ]
-let s:airline_b_insert = [ '#422f00' , '#febb10' , 255 , 27  ]
-let s:airline_c_insert = [ '#422f00' , '#febb10' , 15  , 17  ]
+let s:airline_a_insert = [ '#332400' , '#febb10' , 17  , 45  ]
+let s:airline_b_insert = [ '#332400' , '#febb10' , 255 , 27  ]
+let s:airline_c_insert = [ '#332400' , '#febb10' , 15  , 17  ]
 let g:airline#themes#brown#palette.insert = airline#themes#generate_color_map(s:airline_a_insert, s:airline_b_insert, s:airline_c_insert)
 let g:airline#themes#brown#palette.insert_modified = {
-      \ 'airline_c': [ '#ffffff' , '#fedc85' , 255     , 53      , ''     ] ,
+      \ 'airline_c': [ '#332400' , '#fedc85' , 255     , 53      , ''     ] ,
       \ }
 let g:airline#themes#brown#palette.insert_paste = {
       \ 'airline_a': [ s:airline_a_insert[0]   , '#d78700' , s:airline_a_insert[2] , 172     , ''     ] ,
@@ -58,12 +58,12 @@ let g:airline#themes#brown#palette.replace.airline_a = [ s:airline_b_insert[0]  
 let g:airline#themes#brown#palette.replace_modified = g:airline#themes#brown#palette.insert_modified
 
 
-let s:airline_a_visual = [ '#422f00' , '#febb10' , 232 , 214 ]
-let s:airline_b_visual = [ '#422f00' , '#febb10' , 232 , 202 ]
-let s:airline_c_visual = [ '#422f00' , '#febb10' , 15  , 52  ]
+let s:airline_a_visual = [ '#332400' , '#febb10' , 232 , 214 ]
+let s:airline_b_visual = [ '#332400' , '#febb10' , 232 , 202 ]
+let s:airline_c_visual = [ '#332400' , '#febb10' , 15  , 52  ]
 let g:airline#themes#brown#palette.visual = airline#themes#generate_color_map(s:airline_a_visual, s:airline_b_visual, s:airline_c_visual)
 let g:airline#themes#brown#palette.visual_modified = {
-      \ 'airline_c': [ '#ffffff' , '#fedc85' , 255     , 53      , ''     ] ,
+      \ 'airline_c': [ '#332400' , '#fedc85' , 255     , 53      , ''     ] ,
       \ }
 
 
@@ -72,12 +72,12 @@ let s:airline_b_inactive = [ '#422f00' , '#332400' , 239 , 235 , '' ]
 let s:airline_c_inactive = [ '#422f00' , '#332400' , 239 , 236 , '' ]
 let g:airline#themes#brown#palette.inactive = airline#themes#generate_color_map(s:airline_a_inactive, s:airline_b_inactive, s:airline_c_inactive)
 let g:airline#themes#brown#palette.inactive_modified = {
-      \ 'airline_c': [ '#ffffff' , '#febb10' , 97 , '' , '' ] ,
+      \ 'airline_c': [ '#332400' , '#febb10' , 97 , '' , '' ] ,
       \ }
 
-let s:airline_a_commandline = [ '#422f00' , '#febb10' , 17  , 40 ]
-let s:airline_b_commandline = [ '#422f00' , '#febb10' , 255 , 238 ]
-let s:airline_c_commandline = [ '#422f00' , '#febb10' , 85  , 234 ]
+let s:airline_a_commandline = [ '#332400' , '#febb10' , 17  , 40 ]
+let s:airline_b_commandline = [ '#332400' , '#febb10' , 255 , 238 ]
+let s:airline_c_commandline = [ '#332400' , '#febb10' , 85  , 234 ]
 let g:airline#themes#brown#palette.commandline = airline#themes#generate_color_map(s:airline_a_commandline, s:airline_b_commandline, s:airline_c_commandline)
 let g:airline#themes#brown#palette.accents = {
       \ 'red': [ '#ff0000' , '' , 160 , ''  ]
